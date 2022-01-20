@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'lato';
+  src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'lato';
+}
+body{
+background-color: #D9E8E5;
+}
+header{
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+header div {
+  display: flex;
+  align-items: center;
+  margin: 0px 2% 18px 4%;
+}
+header div img{
+  margin: 0px 2% 0 4%;
+}
+NAV {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #fff; 
+  text-align: right;
+  position: top;
+  top: 0px;
+  display: block;
+  color: #000;
+  font-size: 1rem;
+}
+
+
+ul:nth-of-type(2){
+  margin: auto;
+}
+NAV UL {
+  margin: -6px auto 0 auto;
+  padding-top: 30px;
+}
+li:nth-of-type(4){
+  margin-right: auto;
+}
+ NAV LI {
+  display: inline;
+  list-style-type: none;
+  padding-right: 2%;     
+}
+
+NAV LI A { 
+    color: #000; 
+    text-decoration: none;
+    margin: 0;
+}
+NAV LI A:hover { 
+  transition: all .5s linear;
+  color: #666;
+  text-decoration: underline;
+}
+li:last-child {
+  margin-right: 4%;
+}
+
+
+main{
+  padding: 3%;
+}
+h2{
+  padding-bottom: 1rem;
+}
+section{
+  width: 80%;
+  margin: 0 auto;
+}
+article {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+gap: 10px;
+}
+
+main section article div{
+  display: flex;
+  width: 341px;
+  height: 228px;
+  align-items: end;
+  justify-content: right;
+}
+
+main section article a{
+  text-decoration: none;
+  color: #ccc;
+}
+
+main section article a:hover{
+  text-decoration: none;
+  color: #000;
+}
+
+
+.img1{
+  background: url(../img/ring001.png);
+}
+.img2{
+  background: url(../img/ring002.png);
+}
+.img3{
+  background: url(../img/ring003.png);
+}
+.img4{
+  background: url(../img/ring004.png);
+}
+.img5{
+  background: url(../img/ring005.png);
+}
+.img6{
+  background: url(../img/ring006.png);
+}
