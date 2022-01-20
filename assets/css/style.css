@@ -93,11 +93,13 @@ main section article div{
   height: 228px;
   align-items: end;
   justify-content: right;
+  padding: 0 8px 8px 0;
 }
 
 main section article a{
   text-decoration: none;
   color: #ccc;
+  
 }
 
 main section article a:hover{
